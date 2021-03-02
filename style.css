@@ -17,3 +17,6 @@ body{
     color: black;
 }
 
+.links:hover{
+background-color: lightcoral;
+}
