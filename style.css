@@ -1,13 +1,14 @@
-p{
-  text-align:center;
-}
-body{
-  background:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-  text-align:center;
-  
+p {
+    text-align: center;
 }
 
-.menu{
+body {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    text-align: center;
+
+}
+
+.menu {
     list-style: none;
     font-family: cursive;
     float: right;
@@ -17,6 +18,26 @@ body{
     color: black;
 }
 
-.links:hover{
-background-color: lightcoral;
+.links:hover {
+    background-color: lightcoral;
+}
+
+#name {
+    font-family: 'Arizonia', cursive;
+    text-align: center;
+}
+
+.writing {
+    font-family: 'New Rocker';
+font-size: 25px;
+    text-decoration-color: whitesmoke;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.review{
+    text-align: center;
+    font-size: 30px;
 }
