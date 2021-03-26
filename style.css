@@ -29,15 +29,25 @@ body {
 
 .writing {
     font-family: 'New Rocker';
-font-size: 25px;
+    font-size: 25px;
     text-decoration-color: whitesmoke;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.review{
+.review {
     text-align: center;
     font-size: 30px;
+}
+
+img {
+    transition: trasform .2s;
+    border: 10px solid #AAAAAA;
+width: 500px;
+}
+
+img:hover {
+    transform: scale(0.90);
 }
